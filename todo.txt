@@ -1,0 +1,4 @@
+Radie på circlarna = takt
+Färg = frekvens 
+position i y-led = amplitud 
+position i x-led = låga -> höga frekvenser
