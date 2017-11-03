@@ -1,2 +1,2 @@
 # Sound-visualisation
-Trying out the Web Audio API. I have no idea where I'm going with this. :-)
+Playing around with the p5.js library. Fun stuff! :-)

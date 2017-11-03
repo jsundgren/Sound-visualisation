@@ -40,9 +40,7 @@ function animate(){
 
 	requestAnimationFrame( animate );
 	analyser.getByteFrequencyData(dataArray);
-	for(var i = 0; i < 128; i++){
-		posX += dataArray[i]/255;
-	}
+	getPos();
 	drawCircle(0.5, posX, posY, 0xff0000);
 	renderer.render( scene, camera );
 
@@ -57,6 +55,11 @@ function analyseSound(){
 function getColor(){
 
 	//GET COLOR FROM THE FREQ OF THE SOUND
+}
+
+function getPos(){
+	posX += /255;
+	posY += N;
 }
 
 function drawCircle(radius, posX, posY, circleColor){
