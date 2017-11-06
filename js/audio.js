@@ -7,7 +7,7 @@ var col = {
 };
 
 function preload(){
-    song = loadSound('mm.ogg');
+    song = loadSound('ffb.ogg');
 }
 
 function setup(){
