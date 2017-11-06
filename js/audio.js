@@ -12,7 +12,7 @@ function preload(){
 
 function setup(){
     createCanvas(0.75*windowWidth,0.75*windowHeight, WEBGL);
-    song.loop();
+    //song.loop();
     analyzer = new p5.Amplitude();
     analyzer.setInput(song);
 }
